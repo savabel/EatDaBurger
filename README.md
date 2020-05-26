@@ -1,38 +1,50 @@
-# Eat-Da-Burger-Node-Express-Handlebars
-`Eat-Da-Burger!` is a restaurant app that lets users input the names of burgers they'd like to eat. Whenever a user submits a burger's name, the app will display the burger on the left side of the page -- waiting to be devoured. Each burger in the waiting area also has a Devour it! button. When the user clicks it, the burger will move to the right side of the page. The app will store every burger in a database (mySQL), whether devoured or not.
+# Unit 13  - Eat-Da-Burger-Node-Express-Handlebars
 
-Please Click on this [link]() to Check the App out.
+Table of Contents
+* [Project Goal]
+* [Installation of dependencies]
+* [Challenges]
+* [How to use the Application ?]
+* [License]
+* [Contributing Authors]
+* [Author]
+* [Tests]
 
+## Project Goal
 
-## Technologies
+Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat.
+Whenever a user submits a burger's name, your app will display the burger on the left side of the page -- waiting to be devoured. Each burger in the waiting area also has a `Devour it!` button. When the user clicks it, the burger will move to the right side of the page. Your app will store every burger in a database, whether devoured or not.
 
-| Frontend  | Backend |
-| ------------- | ------------- |
-| HTML | Nodejs |
-| CSS (SASS) | Express |
-| Javascript (jQuery) | jawsDB (Sequelize)|
-| Bootstrap | Heroku|
-|Handlebars (Templating Engine)|
+## Installation of dependencies
+Run Install npm install OR:
+1. Install the Express npm package: `npm install express`.
+2. Install the Handlebars npm package: `npm install express-handlebars`.
+3. Install MySQL npm package: `npm install mysql2`.
+4. Install Meethod-Override npm package: `npm install method-override`.
 
+## Challenges
+I got very late in completing my Homework these past weeks.
+Several issues arose on my end and I had a little quality time to get these homework correctly completed.
+Rendering the final HTML file took me a lot of time to correctly ( I hope) get right.
+I did not run the required tests as I was running out of time to complete this.
 
-Deployed on: `Heroku`
+### How to use the application ?
+In the terminal windows : RUN "node server.js"
+See the related screenshot images in ./images/ folder
+<img src="images/ScreenShot01.jpg" alt="Use the Application" />
 
-## Usage
+## License 
+MIT License
 
+### Contributing Authors
+None
 
+### Author
+Abel Savoeda
+Email: null
+Location:Ottawa, ON
+GitHub: https://github.com/savabel
 
-## Requirements
-- Web Browser
-- Nodejs
-- Relational Database
-
-## Installation
-
-`Eat-Da-Burger-Node-Express-Handlebars` can be downloaded by cloning this repository [`https://github.com/roverkim/Eat-Da-Burger-Node-Express-Handlebars.git`](https://github.com/roverkim/Eat-Da-Burger-Node-Express-Handlebars.git)
-A Live Example can be Found Here
-[`https://afternoon-mountain-55394.herokuapp.com`](https://afternoon-mountain-55394.herokuapp.com)
-
-After installation, open node, navigate to the file and run `npm install`.
-
-To run `Eat-Da-Burger-Node-Express-Handlebars` locally, Please Ensure that You Have a Local Database Connected to thte App.
-
+### Tests
+See the related screenshot images in ./images/ folder
+<img src="images/ScreenShot02.jpg" alt="Use the Application" />
