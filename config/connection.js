@@ -3,7 +3,9 @@ var mysql = require("mysql2");
 
 var connection;
 if (Process.env.JAWSDB_URL){
-  connection=mysql.createConnection(process.env.JAWSDB_URL);
+  connection=mysql://d720pda9sgdytbex:f3ctcr6matwcd5qs@k3xio06abqa902qt.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/gafkuftowckyrpcu
+
+);
   } else {
   connection = mysql.createConnection({
   port: 3306,
